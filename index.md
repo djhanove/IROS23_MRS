@@ -20,6 +20,24 @@ This website showcases the options for the Bulma Clean theme. The theme is avail
 
 The ruby gem is available on the Ruby Gems website at the following location. [https://rubygems.org/gems/bulma-clean-theme](https://rubygems.org/gems/bulma-clean-theme). -->
 
+# Call for Papers
+We invite submissions of extended abstracts (4+n pages) for contributed talks and posters. We welcome submissions on all topics related to multi-agent learning, including but not limited to:
+- Multi-robot coordination and communication
+- Task allocation
+- Resource management
+- Planning
+- Control
+- Game theory
+- Algorithmic approaches for multi-task expertise and distillation
+- Etc.
+
+Please submit your abstracts to our [CMT website](https://cmt3.research.microsoft.com/IROSMRS2023/Submission/Index).
+If you are interested and qualified to act as a reviewer, please send an email to [Drew Hanover](mailto:drewjhanover@gmail.com) with the subject line "Reviewer Request - IROS 2023 Workshop".
+
+# Important Dates
+- Abstract Submission Deadline: September 15th, 2023
+- Notification of Acceptance: September 22nd, 2023
+- Workshop Date: October 1st, 2023
 
 # Information
 The world around us is inherently “multi-agent”. When you drive your car, or walk through a crowd, you are engaging in a collaborative and/or competitive environment with other agents. This phenomenon makes the world an exciting place because it requires individuals to learn game-oriented strategies for all aspects of life which maximize our returns, whether it be longevity, wealth, or happiness. The environment is typically partially observable, necessitating decision making strategies which are capable of accounting for uncertainties in highly complex domains.
@@ -37,15 +55,15 @@ IROS Conference Room 2993
 
 | Time        | Activity           |
 | ----------- | ------------------ |
-| 9:00        | Opening Remarks: Drew Hanover       |
-| 9:10-10:30 | Invited Session 1     |
+| 9:00        | Opening Remarks: Drew Hanover & Ben Moran       |
+| 9:10-10:30 | 2x Speakers + Q & A     |
 | 10:30-11:00 | Coffee Break       |
-| 11:00-12:30 | Invited Session 2     |
+| 11:00-12:30 | 3x Speakers + Q & A     |
 | 12:30-1:30  | Lunch              |
-| 1:30-2:30   | Contributed Papers and Posters Session |
+| 1:30-2:30   | Posters Session and Coffee Break |
 | 2:30-3:00   | Coffee Break       |
-| 3:00-4:15   | Collaborative Coding Session |
-| 4:15-5:00   | Panel and Awards Session    |
+| 3:00-4:15   | Contributed Papers Lightning Talks |
+| 4:15-5:00   | Awards Sesssion and Conclusion|
 
 
 # Speakers
