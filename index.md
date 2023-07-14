@@ -37,7 +37,7 @@ We welcome submissions on all topics related to multi-agent learning, including 
 -Algorithmic approaches for multi-task expertise and distillation
 
 
-Please submit your abstracts in [2 column IEEE format](https://ras.papercept.net/conferences/support/tex.php) to our [CMT website](https://cmt3.research.microsoft.com/IROSMRS2023/Submission/Index).
+Please submit your abstracts in [2 column IEEE format](https://ras.papercept.net/conferences/support/tex.php) to our [CMT website](https://cmt3.research.microsoft.com/IROSMRS2023/Track/1/Submission/Create).
 
 Short papers will be peer-reviewed in single-blind fashion. 
 If you are interested and qualified to act as a reviewer, please send an email to [Drew Hanover](mailto:drewjhanover@gmail.com) with the subject line "Reviewer Request - IROS 2023 Workshop".
