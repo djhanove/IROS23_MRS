@@ -21,18 +21,30 @@ This website showcases the options for the Bulma Clean theme. The theme is avail
 The ruby gem is available on the Ruby Gems website at the following location. [https://rubygems.org/gems/bulma-clean-theme](https://rubygems.org/gems/bulma-clean-theme). -->
 
 # Call for Papers
-We invite submissions of extended abstracts (4+n pages) for contributed talks and posters. We welcome submissions on all topics related to multi-agent learning, including but not limited to:
-- Multi-robot coordination and communication
-- Task allocation
-- Resource management
-- Planning
-- Control
-- Game theory
-- Algorithmic approaches for multi-task expertise and distillation
-- Etc.
+We are pleased to announce the full-day workshop “Advances in Multi-Agent Learning - Coordination, Perception, and Control” will take place as part of the [IEEE/RSJ International Conference on Intelligent Robots and Systems](https://ieee-iros.org/) (IROS 2023) on October 1st in Detroit, USA.
+We invite the submission of short papers (maximum 4 pages) describing current work and early results on the workshop's themes, to be presented during an interactive poster session. We will also have short oral presentations for spotlighted talks.
 
-Please submit your abstracts to our [CMT website](https://cmt3.research.microsoft.com/IROSMRS2023/Submission/Index).
+
+We welcome submissions on all topics related to multi-agent learning, including but not limited to:
+-Perception across robot teams
+-Multi-robot coordination and communication
+-Learning in multi-agent robot contexts
+-Task allocation
+-Resource management
+-Planning
+-Control
+-Game theory
+-Algorithmic approaches for multi-task expertise and distillation
+
+
+Please submit your abstracts in [2 column IEEE format](https://ras.papercept.net/conferences/support/tex.php) to our [CMT website](https://cmt3.research.microsoft.com/IROSMRS2023/Submission/Index).
+
+Short papers will be peer-reviewed in single-blind fashion. 
 If you are interested and qualified to act as a reviewer, please send an email to [Drew Hanover](mailto:drewjhanover@gmail.com) with the subject line "Reviewer Request - IROS 2023 Workshop".
+
+Accepted papers will be presented in-person during an interactive poster session. At least one author will need to be present at the venue for each poster.
+Accepted papers will be made available on the workshop website after IROS.
+
 
 # Important Dates
 - Submissions Open: July 14th, 2023
@@ -195,17 +207,18 @@ Dimitra Panagou received the Diploma and PhD degrees in Mechanical Engineering f
     </a>
     </div>
     <div class="inline-block">
-    <a href="https://twitter.com/markus_with_k">
-        <img class="circular--square" src="{{site.baseurl}}/assets/people/markus.jpg">
-        <p style="text-align:center"><strong>Markus Wulfmeier</strong></p>
-    </a>
-    </div>
-    <div class="inline-block">
     <a href="https://twitter.com/benm">
         <img class="circular--square" src="{{site.baseurl}}/assets/people/ben.jpg">
         <p style="text-align:center"><strong>Ben Moran</strong></p>
     </a>
     </div>
+    <div class="inline-block">
+    <a href="https://twitter.com/markus_with_k">
+        <img class="circular--square" src="{{site.baseurl}}/assets/people/markus.jpg">
+        <p style="text-align:center"><strong>Markus Wulfmeier</strong></p>
+    </a>
+    </div>
+
 
 </div>
 
