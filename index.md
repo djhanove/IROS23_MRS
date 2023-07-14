@@ -35,8 +35,9 @@ Please submit your abstracts to our [CMT website](https://cmt3.research.microsof
 If you are interested and qualified to act as a reviewer, please send an email to [Drew Hanover](mailto:drewjhanover@gmail.com) with the subject line "Reviewer Request - IROS 2023 Workshop".
 
 # Important Dates
-- Abstract Submission Deadline: September 15th, 2023
-- Notification of Acceptance: September 22nd, 2023
+- Submissions Open: July 14th, 2023
+- Abstract Submission Deadline: August 20th, 2023
+- Notification of Publication Decision: August 31st, 2023
 - Workshop Date: October 1st, 2023
 
 # Information
@@ -68,18 +69,18 @@ IROS Conference Room 2993
 
 # Speakers
 
-##### DeepMind
+##### Ben Moran
 <div id="Speakers1">
     <div class="inline-block">
     <a href="https://www.deepmind.com/">
-        <img class="circular--square" src="{{site.baseurl}}/assets/people/deepmind.jpg">
+        <img class="circular--square" src="{{site.baseurl}}/assets/people/ben.jpg">
     </a>
     </div>
 </div>
 
-Google DeepMind has created a neural network that learns how to play video games in a fashion similar to that of humans, as well as a Neural Turing machine or a neural network that may be able to access an external memory like a conventional Turing machine, resulting in a computer that mimics the short-term memory of the human brain.
+DeepMind made headlines in 2016 after its AlphaGo program beat a human professional Go player Lee Sedol, a world champion, in a five-game match, which was the subject of a documentary film. A more general program, AlphaZero, beat the most powerful programs playing go, chess and shogi (Japanese chess) after a few days of play against itself using reinforcement learning.
+Ben will present his recent research at DeepMind on using self-play techniques to train humanoid robots to play the game of soccer.
 
-DeepMind made headlines in 2016 after its AlphaGo program beat a human professional Go player Lee Sedol, a world champion, in a five-game match, which was the subject of a documentary film. A more general program, AlphaZero, beat the most powerful programs playing go, chess and shogi (Japanese chess) after a few days of play against itself using reinforcement learning. In 2020, DeepMind made significant advances in the problem of protein folding with AlphaFold. In July 2022, it was announced that over 200 million predicted protein structures, representing virtually all known proteins, would be released on the AlphaFold database.
 
 <!-- White Space -->
 &nbsp;
@@ -188,7 +189,7 @@ Dimitra Panagou received the Diploma and PhD degrees in Mechanical Engineering f
 
 <div id="Organizers">
     <div class="inline-block">
-    <a href="https://djhanove.wixsite.com/portfolio">
+    <a href="https://www.linkedin.com/in/drew-hanover-b1b9baa5/">
         <img class="circular--square" src="{{site.baseurl}}/assets/people/drew.jpg">
         <p style="text-align:center"><strong>Drew Hanover</strong></p>
     </a>
@@ -199,6 +200,13 @@ Dimitra Panagou received the Diploma and PhD degrees in Mechanical Engineering f
         <p style="text-align:center"><strong>Markus Wulfmeier</strong></p>
     </a>
     </div>
+    <div class="inline-block">
+    <a href="https://twitter.com/benm">
+        <img class="circular--square" src="{{site.baseurl}}/assets/people/ben.jpg">
+        <p style="text-align:center"><strong>Ben Moran</strong></p>
+    </a>
+    </div>
+
 </div>
 
 # Support
