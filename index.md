@@ -22,7 +22,7 @@ The ruby gem is available on the Ruby Gems website at the following location. [h
 
 # Call for Papers
 We are pleased to announce the full-day workshop “Advances in Multi-Agent Learning - Coordination, Perception, and Control” will take place as part of the [IEEE/RSJ International Conference on Intelligent Robots and Systems](https://ieee-iros.org/) (IROS 2023) on October 1st in Detroit, USA.
-We invite the submission of short papers (maximum 4 pages) describing current work and early results on the workshop's themes, to be presented during an interactive poster session. We will also have short oral presentations for spotlighted talks.
+We invite the submission of short papers (maximum 4 pages, plus "n" pages for references) describing current work and early results on the workshop's themes, to be presented during an interactive poster session. We will also have short oral presentations for spotlighted talks.
 
 
 We welcome submissions on all topics related to multi-agent learning, including but not limited to:
@@ -48,7 +48,7 @@ Accepted papers will be made available on the workshop website after IROS.
 
 # Important Dates
 - Submissions Open: July 14th, 2023
-- Abstract Submission Deadline: August 20th, 2023
+- Submission Deadline: August 20th, 2023
 - Notification of Publication Decision: August 31st, 2023
 - Workshop Date: October 1st, 2023
 
@@ -213,7 +213,7 @@ Dimitra Panagou received the Diploma and PhD degrees in Mechanical Engineering f
     </a>
     </div>
     <div class="inline-block">
-    <a href="https://twitter.com/markus_with_k">
+    <a href="https://twitter.com/m_wulfmeier">
         <img class="circular--square" src="{{site.baseurl}}/assets/people/markus.jpg">
         <p style="text-align:center"><strong>Markus Wulfmeier</strong></p>
     </a>
