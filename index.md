@@ -223,4 +223,12 @@ Dimitra Panagou received the Diploma and PhD degrees in Mechanical Engineering f
 </div>
 
 # Support
-This workshop is proudly sponsored by the **IEEE RAS Technical Committee on Multi-Robot Systems**
+This workshop is proudly sponsored by the **IEEE RAS Technical Committee on Multi-Robot Systems** and **Google DeepMind**.
+
+<div id="Deepmind">
+    <div class="inline-block">
+    <a href="https://www.deepmind.com/">
+        <img class="circular--square" src="{{site.baseurl}}/assets/people/deepmind.jpg">
+    </a>
+    </div>
+</div>
