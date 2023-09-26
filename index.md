@@ -69,14 +69,18 @@ IROS Conference Room 2993
 | Time        | Activity           |
 | ----------- | ------------------ |
 | 9:00        | Opening Remarks: Drew Hanover & Ben Moran       |
-| 9:10-10:30 | 2x Speakers + Q & A     |
-| 10:30-11:00 | Coffee Break       |
-| 11:00-12:30 | 3x Speakers + Q & A     |
+| 9:10-9:40   | Peter Stone     |
+| 9:45-10:15 | Dimitra Panagou       |
+| 10:15-10:30 | Q & A    |
+| 10:30-11:00 | Coffee Break    |
+| 11:05-11:35 | Andrew Davison    |
+| 11:40-12:10 | Ben Moran    |
+| 12:15-12:30 | Q & A    |
 | 12:30-1:30  | Lunch              |
-| 1:30-2:30   | Posters Session and Coffee Break |
-| 2:30-3:00   | Coffee Break       |
-| 3:00-4:15   | Contributed Papers Lightning Talks |
-| 4:15-5:00   | Awards Sesssion and Conclusion|
+| 1:35-2:10 | Mac Schwager
+| 2:15-3:30   | Posters Session and Coffee Break |
+| 3:30-4:30   | Contributed Papers Lightning Talks |
+| 4:30-5:00   | Awards Sesssion and Conclusion|
 
 
 # Speakers
@@ -127,25 +131,7 @@ I study distributed algorithms for control, estimation, and learning in groups o
 &nbsp;
 
 
-##### Amanda Prorok
-<div id="Amanda">
-    <div class="inline-block">
-    <a href="https://proroklab.org/wp/team/">
-        <img class="circular--square" src="{{site.baseurl}}/assets/people/amanda.jpg">
-    </a>
-    </div>
-</div>
-Amanda Prorok is an Associate Professor in the Department of Computer Science and Technology, at Cambridge University, and a Fellow of Pembroke College.
-
-Her lab's research focuses on multi-agent and multi-robot systems. Their mission is to find new ways of coordinating artificially intelligent agents (e.g., robots, vehicles, machines) to achieve common goals in shared physical and virtual spaces. This research brings in methods from machine learning, planning, and control, and has numerous applications, including automated transport and logistics, environmental monitoring, surveillance, and search
-
-<!-- White Space -->
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-
-##### Andrew Davison (Tentative)
+##### Andrew Davison
 <div id="Andrew">
     <div class="inline-block">
     <a href="https://www.doc.ic.ac.uk/~ajd/">
