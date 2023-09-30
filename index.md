@@ -34,7 +34,7 @@ This workshop is proudly sponsored by the **IEEE RAS Technical Committee on Mult
 <div id="Avian AG">
     <div class="inline-block">
     <a href="https://www.avian-iot.com/">
-        <img class="circular--square" src="{{site.baseurl}}/assets/people/Avian_logo_white_background.png">
+        <img src="{{site.baseurl}}/assets/people/Avian_logo_white_background.png">
     </a>
     </div>
 </div>
