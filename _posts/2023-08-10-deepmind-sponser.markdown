@@ -6,5 +6,5 @@ categories: jekyll update
 author: Drew Hanover
 ---
 Google DeepMind has graciously agreed to sponsor our workshop at IROS 2023.
-They will provide monetary support for the Best Paper Award and registration fee waivers for invited speakers.
+They will provide monetary support for the workshop.
 We are very grateful for their support!

@@ -20,6 +20,26 @@ This website showcases the options for the Bulma Clean theme. The theme is avail
 
 The ruby gem is available on the Ruby Gems website at the following location. [https://rubygems.org/gems/bulma-clean-theme](https://rubygems.org/gems/bulma-clean-theme). -->
 
+# Support
+This workshop is proudly sponsored by the **IEEE RAS Technical Committee on Multi-Robot Systems**, **Google DeepMind**, and **Avian AG**.
+
+<div id="Deepmind">
+    <div class="inline-block">
+    <a href="https://www.deepmind.com/">
+        <img class="circular--square" src="{{site.baseurl}}/assets/people/deepmind.jpg">
+    </a>
+    </div>
+</div>
+
+<div id="Avian AG">
+    <div class="inline-block">
+    <a href="https://www.avian-iot.com/">
+        <img class="circular--square" src="{{site.baseurl}}/assets/people/Avian_logo_white_background.jpg">
+    </a>
+    </div>
+</div>
+
+
 # Call for Papers
 We are pleased to announce the full-day workshop “Advances in Multi-Agent Learning - Coordination, Perception, and Control” will take place as part of the [IEEE/RSJ International Conference on Intelligent Robots and Systems](https://ieee-iros.org/) (IROS 2023) on October 1st in Detroit, USA.
 We invite the submission of short papers (maximum 4 pages, plus "n" pages for references) describing current work and early results on the workshop's themes, to be presented during an interactive poster session. We will also have short oral presentations for spotlighted talks.
@@ -208,13 +228,3 @@ Dimitra Panagou received the Diploma and PhD degrees in Mechanical Engineering f
 
 </div>
 
-# Support
-This workshop is proudly sponsored by the **IEEE RAS Technical Committee on Multi-Robot Systems** and **Google DeepMind**.
-
-<div id="Deepmind">
-    <div class="inline-block">
-    <a href="https://www.deepmind.com/">
-        <img class="circular--square" src="{{site.baseurl}}/assets/people/deepmind.jpg">
-    </a>
-    </div>
-</div>
