@@ -23,7 +23,7 @@ The ruby gem is available on the Ruby Gems website at the following location. [h
 # Workshop Summary
 Thank you all for your contributions to the 2023 IROS Workshop on Advances in Multi-Agent Learning - Coordination, Perception, and Control. Thanks to your engagement, we had an excellent workshop with a great set of contributed papers and talks from our invited speakers. We are pleased to announce the following awards and contributed papers for the workshop:
 
-## Best $500 Paper Award w/ Oral Presentation
+## Best Paper Award w/ Oral Presentation - $500 Cash Prize
 [iPLAN: Intent-Aware Planning in Heterogeneous Traffic via Distributed Multi-Agent Reinforcement Learning by Xiyang Wang, Rohan Chandra, Tianrui Guan, Amrit Singh Bedi and Dinesh Manocha](https://djhanove.github.io/IROS23_MRS/assets/papers/IROS2023_workshop_iPLAN.pdf)
 
 ## Oral Presentations
