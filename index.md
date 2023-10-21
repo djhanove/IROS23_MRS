@@ -20,6 +20,32 @@ This website showcases the options for the Bulma Clean theme. The theme is avail
 
 The ruby gem is available on the Ruby Gems website at the following location. [https://rubygems.org/gems/bulma-clean-theme](https://rubygems.org/gems/bulma-clean-theme). -->
 
+# Workshop Summary
+Thank you all for your contributions to the 2023 IROS Workshop on Advances in Multi-Agent Learning - Coordination, Perception, and Control. Thanks to your engagement, we had an excellent workshop with a great set of contributed papers and talks from our invited speakers. We are pleased to announce the following awards and contributed papers for the workshop:
+
+## Best $500 Paper Award w/ Oral Presentation
+[iPLAN: Intent-Aware Planning in Heterogeneous Traffic via Distributed Multi-Agent Reinforcement Learning by Xiyang Wang, Rohan Chandra, Tianrui Guan, Amrit Singh Bedi and Dinesh Manocha](https://djhanove.github.io/IROS23_MRS/assets/papers/IROS2023_workshop_iPLAN.pdf)
+
+## Oral Presentations
+- [Decentralized Model Predictive Control for Constrained Multi-Robot System by Allison Seo, Sha Yi, Katia Sycara](https://djhanove.github.io/IROS23_MRS/assets/papers/IROS_Workshop__Decentralized_Model_Predictive_Control_for_Constrained_Multi_Robot_System.pdf)
+
+- [Decentralized Multi-Robot Social Navigation in Constrained Environments via Game-Theoretic Control Barrier Functions by Rohan Chandra, Vrushabh Zinage, Efstathios Bakolas, Joydeep Biswas, and Peter Stone](https://djhanove.github.io/IROS23_MRS/assets/papers/ICRA_24_socialnavigation_8pager.pdf)
+
+- [Coordination in Ad Hoc Teams with Generalized Policy Improvement by Rupal Nigam, Niket Parikh, Mikihisa Yuasa, and Huy Tran](https://djhanove.github.io/IROS23_MRS/assets/papers/IROS_MRS_2023_AdhocTeams.pdf)
+
+- [Global and Subgroup Connectivity Maintenance for Decentralized Multi-Robot Networks under Uncertainty by Yupeng Yang, Yiwei Lyu, Sha Yi, Yanze Zhang, Wenhao Luo](https://djhanove.github.io/IROS23_MRS/assets/papers/iros2023workshop_subgroupConnectivity.pdf)
+
+## Poster Presentations
+- [A Multi-Robot Task Assignment Framework for Search and Rescue with Heterogeneous Teams by Hamid Osooli, Paul Robinette, Kshitij and S. Reza Ahmadzadeh](https://djhanove.github.io/IROS23_MRS/assets/papers/Hamid_Osooli_IROS2023_Workshop.pdf)
+
+- [Resource-Aware Simulator for Decentralized Active Perception with Multiple Robots by Sandilya Sai Garimella, Zirui Xu, and Vasileios Tzoumas](https://djhanove.github.io/IROS23_MRS/assets/papers/ieeeIROS2023_multirobotsim_draft.pdf)
+
+- [A Detection and Filtering Framework for Collaborative Localization by Thirumalaesh Ashokkumar Katherine Skinner, Siddharth Agarwal, Ankit Vora, Ashutosh Bhown](https://djhanove.github.io/IROS23_MRS/assets/papers/fin_IROS_DETECTION_AND_LOCALIZATION_FRAMEWORK.pdf)
+
+- [Enhancing Multi-Drone Coordination for Filming Group Behaviours in Dynamic Environments by Aditya Rauniyar, Jioayang Li, and Sebastian Scherer](https://djhanove.github.io/IROS23_MRS/assets/papers/Enhancing_Multi_Drone_Coordination_for_Filming_Group_Behaviours_in_Dynamic_Environments.pdf)
+
+
+
 # Support
 This workshop is proudly sponsored by the **IEEE RAS Technical Committee on Multi-Robot Systems**, **Google DeepMind**, and **Avian AG**.
 
