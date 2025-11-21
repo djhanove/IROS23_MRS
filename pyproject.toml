@@ -1,9 +1,10 @@
 [project]
 name = "iros23-mrs-workshop"
 version = "1.0.0"
+requires-python = ">=3.12"
 dependencies = []
 
-[project.optional-dependencies]
+[dependency-groups]
 docs = [
     "mkdocs-material>=9.0.0",
     "mkdocs-minify-plugin>=0.7.0",

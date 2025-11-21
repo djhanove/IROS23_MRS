@@ -1,6 +1,7 @@
 site_name: Advances in Multi-Agent Learning - Coordination, Perception, and Control
 site_description: IROS 2023 Workshop - Detroit, Michigan
 site_author: Drew Hanover
+site_url: https://djhanove.github.io/IROS23_MRS/
 
 repo_url: https://github.com/djhanove/IROS23_MRS
 repo_name: djhanove/IROS23_MRS
@@ -47,4 +48,11 @@ markdown_extensions:
 
 plugins:
   - search
+
+# Ensure PDFs and other assets are copied
+extra_javascript:
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+
+# Copy all files from docs/assets to site/assets
+# MkDocs Material automatically copies files in docs/ directory
 

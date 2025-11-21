@@ -1,0 +1,1092 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="IROS 2023 Workshop - Detroit, Michigan">
+      
+      
+        <meta name="author" content="Drew Hanover">
+      
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Advances in Multi-Agent Learning - Coordination, Perception, and Control</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#advances-in-multi-agent-learning-coordination-perception-and-control" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="Advances in Multi-Agent Learning - Coordination, Perception, and Control" class="md-header__button md-logo" aria-label="Advances in Multi-Agent Learning - Coordination, Perception, and Control" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Advances in Multi-Agent Learning - Coordination, Perception, and Control
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Home
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="blue"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="blue" data-md-color-accent="blue"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/djhanove/IROS23_MRS" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    djhanove/IROS23_MRS
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="Advances in Multi-Agent Learning - Coordination, Perception, and Control" class="md-nav__button md-logo" aria-label="Advances in Multi-Agent Learning - Coordination, Perception, and Control" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Advances in Multi-Agent Learning - Coordination, Perception, and Control
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/djhanove/IROS23_MRS" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    djhanove/IROS23_MRS
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#workshop-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Workshop Summary
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Workshop Summary">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#best-paper-award-w-oral-presentation-500-cash-prize" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Best Paper Award w/ Oral Presentation - $500 Cash Prize
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#oral-presentations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Oral Presentations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#poster-presentations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Poster Presentations
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#support" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Support
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#call-for-papers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Call for Papers
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#important-dates" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Important Dates
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#information" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Information
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#location-and-date" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Location and Date
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#schedule" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Schedule
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#speakers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Speakers
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Speakers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ben-moran" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ben Moran
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mac-schwager" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mac Schwager
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#andrew-davison" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Andrew Davison
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#peter-stone" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Peter Stone
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dimitra-panagou" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dimitra Panagou
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#organizers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Organizers
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#workshop-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Workshop Summary
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Workshop Summary">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#best-paper-award-w-oral-presentation-500-cash-prize" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Best Paper Award w/ Oral Presentation - $500 Cash Prize
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#oral-presentations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Oral Presentations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#poster-presentations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Poster Presentations
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#support" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Support
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#call-for-papers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Call for Papers
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#important-dates" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Important Dates
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#information" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Information
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#location-and-date" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Location and Date
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#schedule" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Schedule
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#speakers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Speakers
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Speakers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ben-moran" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ben Moran
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mac-schwager" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mac Schwager
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#andrew-davison" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Andrew Davison
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#peter-stone" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Peter Stone
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dimitra-panagou" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dimitra Panagou
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#organizers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Organizers
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="advances-in-multi-agent-learning-coordination-perception-and-control">Advances in Multi-Agent Learning - Coordination, Perception, and Control</h1>
+<p><strong>IROS 2023 - Detroit, Michigan</strong></p>
+<h2 id="workshop-summary">Workshop Summary</h2>
+<p>Thank you all for your contributions to the 2023 IROS Workshop on Advances in Multi-Agent Learning - Coordination, Perception, and Control. Thanks to your engagement, we had an excellent workshop with a great set of contributed papers and talks from our invited speakers. We are pleased to announce the following awards and contributed papers for the workshop:</p>
+<h3 id="best-paper-award-w-oral-presentation-500-cash-prize">Best Paper Award w/ Oral Presentation - $500 Cash Prize</h3>
+<p><a href="assets/papers/IROS2023_workshop_iPLAN.pdf">iPLAN: Intent-Aware Planning in Heterogeneous Traffic via Distributed Multi-Agent Reinforcement Learning by Xiyang Wang, Rohan Chandra, Tianrui Guan, Amrit Singh Bedi and Dinesh Manocha</a></p>
+<h3 id="oral-presentations">Oral Presentations</h3>
+<ul>
+<li>
+<p><a href="assets/papers/IROS_Workshop__Decentralized_Model_Predictive_Control_for_Constrained_Multi_Robot_System.pdf">Decentralized Model Predictive Control for Constrained Multi-Robot System by Allison Seo, Sha Yi, Katia Sycara</a></p>
+</li>
+<li>
+<p><a href="assets/papers/ICRA_24_socialnavigation_8pager.pdf">Decentralized Multi-Robot Social Navigation in Constrained Environments via Game-Theoretic Control Barrier Functions by Rohan Chandra, Vrushabh Zinage, Efstathios Bakolas, Joydeep Biswas, and Peter Stone</a></p>
+</li>
+<li>
+<p><a href="assets/papers/IROS_MRS_2023_AdhocTeams.pdf">Coordination in Ad Hoc Teams with Generalized Policy Improvement by Rupal Nigam, Niket Parikh, Mikihisa Yuasa, and Huy Tran</a></p>
+</li>
+<li>
+<p><a href="assets/papers/iros2023workshop_subgroupConnectivity.pdf">Global and Subgroup Connectivity Maintenance for Decentralized Multi-Robot Networks under Uncertainty by Yupeng Yang, Yiwei Lyu, Sha Yi, Yanze Zhang, Wenhao Luo</a></p>
+</li>
+</ul>
+<h3 id="poster-presentations">Poster Presentations</h3>
+<ul>
+<li>
+<p><a href="assets/papers/Hamid_Osooli_IROS2023_Workshop.pdf">A Multi-Robot Task Assignment Framework for Search and Rescue with Heterogeneous Teams by Hamid Osooli, Paul Robinette, Kshitij and S. Reza Ahmadzadeh</a></p>
+</li>
+<li>
+<p><a href="assets/papers/ieeeIROS2023_multirobotsim_draft.pdf">Resource-Aware Simulator for Decentralized Active Perception with Multiple Robots by Sandilya Sai Garimella, Zirui Xu, and Vasileios Tzoumas</a></p>
+</li>
+<li>
+<p><a href="assets/papers/fin_IROS_DETECTION_AND_LOCALIZATION_FRAMEWORK.pdf">A Detection and Filtering Framework for Collaborative Localization by Thirumalaesh Ashokkumar Katherine Skinner, Siddharth Agarwal, Ankit Vora, Ashutosh Bhown</a></p>
+</li>
+<li>
+<p><a href="assets/papers/Enhancing_Multi_Drone_Coordination_for_Filming_Group_Behaviours_in_Dynamic_Environments.pdf">Enhancing Multi-Drone Coordination for Filming Group Behaviours in Dynamic Environments by Aditya Rauniyar, Jioayang Li, and Sebastian Scherer</a></p>
+</li>
+</ul>
+<h2 id="support">Support</h2>
+<p>This workshop is proudly sponsored by the <strong>IEEE RAS Technical Committee on Multi-Robot Systems</strong>, <strong>Google DeepMind</strong>, and <strong>Avian AG</strong>.</p>
+<div style="display: inline-block; margin: 20px;">
+    <a href="https://www.deepmind.com/">
+        <img src="assets/people/deepmind.jpg" style="border-radius: 50%; width: 200px; height: 200px; object-fit: cover;">
+    </a>
+</div>
+
+<div style="display: inline-block; margin: 20px;">
+    <a href="https://www.avian-iot.com/">
+        <img src="assets/people/Avian_logo_white_background.png" style="max-width: 200px;">
+    </a>
+</div>
+
+<h2 id="call-for-papers">Call for Papers</h2>
+<p>We are pleased to announce the full-day workshop "Advances in Multi-Agent Learning - Coordination, Perception, and Control" will take place as part of the <a href="https://ieee-iros.org/">IEEE/RSJ International Conference on Intelligent Robots and Systems</a> (IROS 2023) on October 1st in Detroit, USA.
+We invite the submission of short papers (maximum 4 pages, plus "n" pages for references) describing current work and early results on the workshop's themes, to be presented during an interactive poster session. We will also have short oral presentations for spotlighted talks.</p>
+<p>We welcome submissions on all topics related to multi-agent learning, including but not limited to:</p>
+<ul>
+<li>Perception across robot teams</li>
+<li>Multi-robot coordination and communication</li>
+<li>Learning in multi-agent robot contexts</li>
+<li>Task allocation</li>
+<li>Resource management</li>
+<li>Planning</li>
+<li>Control</li>
+<li>Game theory</li>
+<li>Algorithmic approaches for multi-task expertise and distillation</li>
+</ul>
+<p>Please submit your abstracts in <a href="https://ras.papercept.net/conferences/support/tex.php">2 column IEEE format</a> to our <a href="https://cmt3.research.microsoft.com/IROSMRS2023/Track/1/Submission/Create">CMT website</a>.</p>
+<p>Short papers will be peer-reviewed in single-blind fashion. 
+If you are interested and qualified to act as a reviewer, please send an email to <a href="mailto:drewjhanover@gmail.com">Drew Hanover</a> with the subject line "Reviewer Request - IROS 2023 Workshop".</p>
+<p>Accepted papers will be presented in-person during an interactive poster session. At least one author will need to be present at the venue for each poster.
+Accepted papers will be made available on the workshop website after IROS.</p>
+<h2 id="important-dates">Important Dates</h2>
+<ul>
+<li>Submissions Open: July 14th, 2023</li>
+<li>Submission Deadline: August 20th, 2023</li>
+<li>Notification of Publication Decision: August 31st, 2023</li>
+<li>Workshop Date: October 1st, 2023</li>
+</ul>
+<h2 id="information">Information</h2>
+<p>The world around us is inherently "multi-agent". When you drive your car, or walk through a crowd, you are engaging in a collaborative and/or competitive environment with other agents. This phenomenon makes the world an exciting place because it requires individuals to learn game-oriented strategies for all aspects of life which maximize our returns, whether it be longevity, wealth, or happiness. The environment is typically partially observable, necessitating decision making strategies which are capable of accounting for uncertainties in highly complex domains.</p>
+<p>In this workshop, we aim to explore these ideas by presenting the latest advancements in multi-agent reinforcement learning and game theory from top researchers and practitioners in the field. The workshop will cover a broad range of topics, including multi-robot coordination and communication, task allocation, resource management, planning, control, and game theory. Additionally, we encourage topics on algorithmic approaches for multi-task expertise and distillation. </p>
+<p>The workshop will include practical demonstrations and hands-on sessions to provide participants with the requisite tools to enable robots to interact in a highly complex, multi-agent world. </p>
+<h2 id="location-and-date">Location and Date</h2>
+<p>October 1st, 2023 in Detroit, Michigan<br />
+IROS Conference Room 2993</p>
+<h2 id="schedule">Schedule</h2>
+<table>
+<thead>
+<tr>
+<th>Time</th>
+<th>Activity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>9:00</td>
+<td>Opening Remarks: Drew Hanover &amp; Ben Moran</td>
+</tr>
+<tr>
+<td>9:10-9:40</td>
+<td>Peter Stone</td>
+</tr>
+<tr>
+<td>9:45-10:15</td>
+<td>Dimitra Panagou</td>
+</tr>
+<tr>
+<td>10:15-10:30</td>
+<td>Q &amp; A</td>
+</tr>
+<tr>
+<td>10:30-11:00</td>
+<td>Coffee Break</td>
+</tr>
+<tr>
+<td>11:05-11:35</td>
+<td>Andrew Davison</td>
+</tr>
+<tr>
+<td>11:40-12:10</td>
+<td>Ben Moran</td>
+</tr>
+<tr>
+<td>12:15-12:30</td>
+<td>Q &amp; A</td>
+</tr>
+<tr>
+<td>12:30-1:30</td>
+<td>Lunch</td>
+</tr>
+<tr>
+<td>1:35-2:10</td>
+<td>Mac Schwager</td>
+</tr>
+<tr>
+<td>2:15-3:30</td>
+<td>Posters Session and Coffee Break</td>
+</tr>
+<tr>
+<td>3:30-4:30</td>
+<td>Contributed Papers Lightning Talks</td>
+</tr>
+<tr>
+<td>4:30-5:00</td>
+<td>Awards Sesssion and Conclusion</td>
+</tr>
+</tbody>
+</table>
+<h2 id="speakers">Speakers</h2>
+<h3 id="ben-moran">Ben Moran</h3>
+<div style="display: inline-block; margin: 20px;">
+    <a href="https://www.deepmind.com/">
+        <img src="assets/people/ben.jpg" style="border-radius: 50%; width: 200px; height: 200px; object-fit: cover;">
+    </a>
+</div>
+
+<p>DeepMind made headlines in 2016 after its AlphaGo program beat a human professional Go player Lee Sedol, a world champion, in a five-game match, which was the subject of a documentary film. A more general program, AlphaZero, beat the most powerful programs playing go, chess and shogi (Japanese chess) after a few days of play against itself using reinforcement learning.
+Ben will present his recent research at DeepMind on using self-play techniques to train humanoid robots to play the game of soccer.</p>
+<hr />
+<h3 id="mac-schwager">Mac Schwager</h3>
+<div style="display: inline-block; margin: 20px;">
+    <a href="https://msl.stanford.edu/">
+        <img src="assets/people/mac.jpg" style="border-radius: 50%; width: 200px; height: 200px; object-fit: cover;">
+    </a>
+</div>
+
+<p>I study distributed algorithms for control, estimation, and learning in groups of autonomous aircraft, autonomous cars, and robots. Here are a few of my current and past research topics:</p>
+<ul>
+<li>Distributed control for the deployment of aerial camera networks </li>
+<li>Agile control of quadrotor swarms</li>
+<li>Monitoring and controlling environmental phenomena with aerial robots</li>
+<li>Cooperative manipulation with teams of mobile manipulators</li>
+<li>Trustworthiness, deception, and adversaries in multi-robot systems</li>
+<li>Human-swarm interfaces</li>
+<li>Autonomous drone racing</li>
+</ul>
+<hr />
+<h3 id="andrew-davison">Andrew Davison</h3>
+<div style="display: inline-block; margin: 20px;">
+    <a href="https://www.doc.ic.ac.uk/~ajd/">
+        <img src="assets/people/andrew.jpg" style="border-radius: 50%; width: 200px; height: 200px; object-fit: cover;">
+    </a>
+</div>
+
+<p>I hold the position of Professor of Robot Vision at the Department of Computing, Imperial College London, and lead the Dyson Robotics Laboratory at Imperial College where we are working on vision and AI technology for next generation home robotics. I also lead the Robot Vision Research Group though most of my activity is now within the Dyson Lab.</p>
+<p>I am working in computer vision and robotics: specifically my main research has concerned SLAM (Simultaneous Localisation and Mapping) using vision, with a particular emphasis on methods that work in real-time with commodity cameras. I pioneered SLAM with vision from the mid 1990s onwards, and brought the SLAM acronym and methods from robotics to single camera computer vision with the breakthrough MonoSLAM algorithm in 2003 which enabled long-term, drift-free, real-time SLAM from a single camera for the first time, inspiring many researchers and industry developments in robotics and inside-out tracking for VR and AR.</p>
+<hr />
+<h3 id="peter-stone">Peter Stone</h3>
+<div style="display: inline-block; margin: 20px;">
+    <a href="https://www.cs.utexas.edu/~pstone/">
+        <img src="assets/people/peter.jpg" style="border-radius: 50%; width: 200px; height: 200px; object-fit: cover;">
+    </a>
+</div>
+
+<p>Dr. Peter Stone holds the Truchard Foundation Chair in Computer Science at the University of Texas at Austin. He is Associate Chair of the Computer Science Department, as well as Director of Texas Robotics. In 2013 he was awarded the University of Texas System Regents' Outstanding Teaching Award and in 2014 he was inducted into the UT Austin Academy of Distinguished Teachers, earning him the title of University Distinguished Teaching Professor. Professor Stone's research interests in Artificial Intelligence include machine learning (especially reinforcement learning), multiagent systems, and robotics. Professor Stone received his Ph.D in Computer Science in 1998 from Carnegie Mellon University. From 1999 to 2002 he was a Senior Technical Staff Member in the Artificial Intelligence Principles Research Department at AT&amp;T Labs - Research. He is an Alfred P. Sloan Research Fellow, Guggenheim Fellow, AAAI Fellow, IEEE Fellow, AAAS Fellow, ACM Fellow, Fulbright Scholar, and 2004 ONR Young Investigator. In 2007 he received the prestigious IJCAI Computers and Thought Award, given biannually to the top AI researcher under the age of 35, and in 2016 he was awarded the ACM/SIGAI Autonomous Agents Research Award. Professor Stone co-founded Cogitai, Inc., a startup company focused on continual learning, in 2015, and currently serves as Executive Director of Sony AI America.</p>
+<hr />
+<h3 id="dimitra-panagou">Dimitra Panagou</h3>
+<div style="display: inline-block; margin: 20px;">
+    <a href="https://aero.engin.umich.edu/people/panagou-dimitra/">
+        <img src="assets/people/dimitra.jpg" style="border-radius: 50%; width: 200px; height: 200px; object-fit: cover;">
+    </a>
+</div>
+
+<p><strong>Title: Task Allocation and Trust-based Adaptation and Control in Adversarial Multi-Robot Systems</strong></p>
+<p>Multi-robot systems and robotic networks are vulnerable to attacks in the "cyber" domain (e.g., to malicious/faulty information shared via communication or acquired via sensing), and/or on attacks that target the "physical" domain (e.g., the actuators or the entire physical system/network). Despite tremendous progress, there are still open problems, including but not limited to how we can obtain less conservative models of, and responses to, the attacks (beyond worst-case assumptions). In this talk, I will present an overview of our recent work on safety-driven task allocation, and on trust-based adaptation and control for multi-agent systems against adversarial agents.</p>
+<p>Dimitra Panagou received the Diploma and PhD degrees in Mechanical Engineering from the National Technical University of Athens, Greece, in 2006 and 2012, respectively. In September 2014 she joined the Department of Aerospace Engineering, University of Michigan as an Assistant Professor. Since July 2022 she is an Associate Professor with the newly established Department of Robotics, with a courtesy appointment with the Department of Aerospace Engineering, University of Michigan. Prior to joining the University of Michigan, she was a postdoctoral research associate with the Coordinated Science Laboratory, University of Illinois, Urbana-Champaign (2012-2014), a visiting research scholar with the GRASP Lab, University of Pennsylvania (June 2013, Fall 2010) and a visiting research scholar with the University of Delaware, Mechanical Engineering Department (Spring 2009). Her research program spans the areas of nonlinear systems and control; multi-agent systems and networks; motion and path planning; human-robot interaction; navigation, guidance, and control of aerospace vehicles. She is particularly interested in the development of provably-correct methods for the safe and secure (resilient) operation of autonomous systems in complex missions, with applications in robot/sensor networks and multi-vehicle systems (ground, marine, aerial, space). She is a recipient of the NASA Early Career Faculty Award, the AFOSR Young Investigator Award, the NSF CAREER Award, and a Senior Member of the IEEE and the AIAA.</p>
+<h2 id="organizers">Organizers</h2>
+<div style="display: inline-block; margin: 20px; text-align: center;">
+    <a href="https://www.linkedin.com/in/drew-hanover-b1b9baa5/">
+        <img src="assets/people/drew.jpg" style="border-radius: 50%; width: 200px; height: 200px; object-fit: cover;">
+        <p><strong>Drew Hanover</strong></p>
+    </a>
+</div>
+
+<div style="display: inline-block; margin: 20px; text-align: center;">
+    <a href="https://twitter.com/benm">
+        <img src="assets/people/ben.jpg" style="border-radius: 50%; width: 200px; height: 200px; object-fit: cover;">
+        <p><strong>Ben Moran</strong></p>
+    </a>
+</div>
+
+<div style="display: inline-block; margin: 20px; text-align: center;">
+    <a href="https://twitter.com/m_wulfmeier">
+        <img src="assets/people/markus.jpg" style="border-radius: 50%; width: 200px; height: 200px; object-fit: cover;">
+        <p><strong>Markus Wulfmeier</strong></p>
+    </a>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "search.suggest", "search.highlight", "content.code.annotate"], "search": "assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+    
+  </body>
+</html>
