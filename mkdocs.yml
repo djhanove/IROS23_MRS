@@ -1,0 +1,50 @@
+site_name: Advances in Multi-Agent Learning - Coordination, Perception, and Control
+site_description: IROS 2023 Workshop - Detroit, Michigan
+site_author: Drew Hanover
+
+repo_url: https://github.com/djhanove/IROS23_MRS
+repo_name: djhanove/IROS23_MRS
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.annotate
+
+nav:
+  - Home: index.md
+
+docs_dir: docs
+site_dir: site
+
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - tables
+  - attr_list
+  - md_in_html
+
+plugins:
+  - search
+

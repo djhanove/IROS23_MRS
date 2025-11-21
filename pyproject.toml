@@ -1,0 +1,10 @@
+[project]
+name = "iros23-mrs-workshop"
+version = "1.0.0"
+dependencies = []
+
+[project.optional-dependencies]
+docs = [
+    "mkdocs-material>=9.0.0",
+    "mkdocs-minify-plugin>=0.7.0",
+]
